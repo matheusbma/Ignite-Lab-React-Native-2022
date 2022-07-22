@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "ignite-lab-react-native",
+    "slug": "ignite-lab-react-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
