@@ -22,12 +22,12 @@ export function Order({data, ...rest}: Props) {
   return (
     <Pressable {...rest}>
       <HStack
-      bg="gray.600"
-      mb={4}
-      alignItems="center"
-      justifyContent="space-between"
-      rounded="sm"
-      overflow="hidden"
+        bg="gray.600"
+        mb={4}
+        alignItems="center"
+        justifyContent="space-between"
+        rounded="sm"
+        overflow="hidden"
       >
         <Box h="full" w={2} bg={statusColor} />
 
