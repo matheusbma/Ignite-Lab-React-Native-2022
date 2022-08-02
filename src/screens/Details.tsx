@@ -1,4 +1,4 @@
-import React from 'react'; 
+import * as React from 'react';
 import { VStack, Text } from 'native-base';
 import { useRoute } from '@react-navigation/native';
 

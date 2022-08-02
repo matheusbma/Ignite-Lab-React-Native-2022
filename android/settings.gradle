@@ -1,4 +1,4 @@
-rootProject.name = 'IgniteLabReactNative2022'
+rootProject.name = 'ignite-lab-react-native'
 
 apply from: new File(["node", "--print", "require.resolve('expo/package.json')"].execute(null, rootDir).text.trim(), "../scripts/autolinking.gradle");
 useExpoModules()

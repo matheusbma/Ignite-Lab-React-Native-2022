@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Input as NativeBaseInput, IInputProps } from 'native-base';
 
 export function Input({ ...rest }: IInputProps) {

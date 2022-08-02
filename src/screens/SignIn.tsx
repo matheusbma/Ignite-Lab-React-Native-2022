@@ -1,4 +1,7 @@
-import React, { useState } from 'react';
+import * as React from 'react';
+import { useState } from 'react';
+import { Alert } from 'react-native';
+import auth from "@react-native-firebase/auth"
 import { VStack, Heading, Icon, useTheme } from 'native-base';
 
 import Logo from '../assets/logo_primary.svg'
@@ -13,7 +16,12 @@ export function SignIn() {
   const [password, setPassword] = useState('');
 
   const handleSignIn = () => {
-    console.log(email, password)
+    if (!email || !password) {
+      return Alert.alert('Entrar', 'Informe e-mail e senha');
+    }
+
+
+
   }
 
   return(

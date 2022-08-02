@@ -1,4 +1,4 @@
-package com.ignitelabreactnative2022;
+package com.rockethelp;
 
 import android.os.Build;
 import android.os.Bundle;
