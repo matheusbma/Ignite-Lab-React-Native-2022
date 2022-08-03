@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Heading, HStack, IconButton, StyledProps, useTheme } from 'native-base';
 import { useNavigation } from '@react-navigation/native'
 

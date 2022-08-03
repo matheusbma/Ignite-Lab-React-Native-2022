@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Box, Circle, HStack, Text, useTheme, VStack, Pressable, IPressableProps } from 'native-base';
 
 import { ClockAfternoon, Hourglass, CircleWavyCheck } from 'phosphor-react-native'

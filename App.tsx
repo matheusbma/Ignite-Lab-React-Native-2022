@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { NativeBaseProvider, StatusBar } from 'native-base';
 import { Loading } from './src/components/Loading';
 
